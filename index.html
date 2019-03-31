@@ -1,0 +1,59 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 id="MainPageLink">Twitch Tv Tracker</h1>
+    <button id="allLineButton" class="btn btn-primary">All / Default</button>
+
+     <hr>
+    
+    <div id="activeStreams"></div>
+    <div id="notActiveStreams"></div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3 id="messagesToUser"></h3>
+     </div>
+    </div>
+      
+    <div class="col-md-12">
+   <button id="onLineButton" class="btn btn-primary">Online </button>
+        <button id="offLineButton" class="btn btn-primary">Offline </button>
+        <button id="addChannel" class="btn btn-primary">Add Channel</button>
+        <button id="findChannel" class="btn btn-primary">Find Channel</button> 
+      </div>
+    </div>
+	
+ <div class="row">
+      <div class="col-md-12">
+    <div id="addChannelForm">
+      <br>
+      <form action='' method='get'>
+        <fieldset class='form-group'><input type='text' id='inputChannel' name='inputChannel' placeholder='New Channel name'></fieldset><button id='submit'  class='btn btn-primary'>Add</button></form>
+    </div>
+ </div>
+    </div>	
+	
+	
+ <div class="row">
+      <div class="col-md-12"> 
+<div id="addFindForm">
+  <br>
+      <form action='' method='get'>
+        <fieldset class='form-group'><input type='text' id='inputSearch' name='inputSearch' placeholder='Channel name'></fieldset><button  id='showSeachStream' class='btn btn-primary'>Search</button></form>
+  </div> 
+  </div>
+  </div>
+
+  <div class="container text-center" id="quoteHolder"></div>
+  <div class="container text-center" id="quoteHolder2"></div>
+
+
+</body>
